@@ -1,0 +1,84 @@
+body{
+    background-image: url(./BG-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    color: rgb(141, 240, 240);
+    margin-top: 20px;
+    font-family: Dancing Script;
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.hh{
+    /* border: 1px solid white; */
+    border-radius: 50px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px lightblue;
+}
+
+.inpp{
+    width: 45%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:transparent;
+    box-shadow: 0px 0px 5px lightblue;
+    /* border: none; */
+    background-image:linear-gradient(rgba(244, 233, 233, 0.729),rgba(123, 111, 111, 0.301));
+    font-size: 25px;
+    font-family: Dancing Script;
+    font-weight: bold;
+}
+
+.button-Container{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+}
+
+.btn{
+    margin-left: 15px;
+    width: 110px;
+    height: 35px;
+    background-image:linear-gradient(rgba(9, 5, 5, 0.729),rgba(8, 8, 8, 0.301));
+    font-size: larger !important;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.list{
+    background-image:linear-gradient(rgba(248, 243, 243, 0.729),rgba(234, 211, 211, 0.301));
+    width: 45%;
+    margin: auto;
+    margin-top: 30px;
+}
+.liBtns{
+    background-image:linear-gradient(rgba(112, 80, 165, 0.729),rgba(8, 8, 8, 0.301));
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    /* margin: 5px; */
+    font-weight: bold;
+    font-size:15px;
+    margin-left: 20px;
+    margin: 5px;
+}
+
+li{
+    font-size: x-large;
+    font-family: Dancing Script;
+    font-weight: bold;
+}
